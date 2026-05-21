@@ -10,7 +10,8 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton, ReplyKeyboardRemo
 from bs4 import BeautifulSoup
 
 # ================= 🔐 КОНФИГУРАЦИЯ =================
-TOKEN = "8683188121:AAHNUc2dxLuekhssGqa4nCcEFnI7ZR5BI2A"
+TOKEN = os.getenv("BOT_TOKEN", "")
+
 HLTV_URL = "https://www.hltv.org"
 
 # 🔥 ПРОКСИ (из твоего VPN конфига)
