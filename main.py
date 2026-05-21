@@ -16,7 +16,7 @@ HLTV_URL = "https://www.hltv.org"
 
 # 🔥 ПРОКСИ (из твоего VPN конфига)
 # Если используешь V2Ray/Xray - порт обычно 10808 (SOCKS) или 10809 (HTTP)
-USE_PROXY = True  # Поставь True если нужен прокси
+USE_PROXY = False  # Поставь True если нужен прокси
 PROXY_URL = "http://127.0.0.1:10809"  # HTTP прокси из твоего VPN
 # PROXY_URL = "socks5://127.0.0.1:10808"  # Или SOCKS5
 
