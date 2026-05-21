@@ -1,5 +1,2 @@
 aiogram>=3.0.0
-beautifulsoup4
-lxml
-aiohttp
-brotlicffi
+python-dotenv>=1.0.0
